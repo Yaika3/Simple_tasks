@@ -34,14 +34,46 @@ public class Main {
 
         //task 3  не понимаю как решить с прибавлением км и временем суток.
         int deliveryDistance = 95;
-        int day = 20;
-        if (day >=20 && day < 60){
+        if (deliveryDistance >=20 && deliveryDistance < 60){
             System.out.println("Доставка займет 2 дня");}
-        if (day >60 && day < 100){
+        if (deliveryDistance >60 && deliveryDistance < 100){
             System.out.println("Доставка займет 3 дня");}
-
-
+        if (deliveryDistance > 100){
+            System.out.println("Доставка невозможна");}
         //task 4
+        int monthNumber = 12;
+        switch (monthNumber){
+            case 1:System.out.println("принадлежит к сезону зима");
+                break;
+            case 2:
+                System.out.println("принадлежит к сезону зима");
+                break;
+            case 3:System.out.println("принадлежит к сезону зима");
+                break;
+            case 4:System.out.println("принадлежит к сезону весна");
+                break;
+            case 5:System.out.println("принадлежит к сезону весна");
+                break;
+            case 6:System.out.println("принадлежит к сезону весна");
+                break;
+            case 7:System.out.println("принадлежит к сезону лето");
+                break;
+            case 8:System.out.println("принадлежит к сезону лето");
+                break;
+            case 9:System.out.println("принадлежит к сезону лето");
+                break;
+            case 10:System.out.println("принадлежит к сезону осень");
+                break;
+            case 11:System.out.println("принадлежит к сезону осень");
+                break;
+            case 12:System.out.println("принадлежит к сезону осень");
+                break;
+            case 13:
+                System.out.println("Error");
+                break;
+        }
+
+
 
 
 

@@ -31,7 +31,7 @@ public class Main {
         else System.out.println("год не является високосным");
 
 
-        //Простая работа указанием дистанции через switch
+        //Простая работа указанием дистанции
         int deliveryDistance = 95;
         if (deliveryDistance >=20 && deliveryDistance < 60){
             System.out.println("Доставка займет 2 дня");}
@@ -39,7 +39,7 @@ public class Main {
             System.out.println("Доставка займет 3 дня");}
         if (deliveryDistance > 100){
             System.out.println("Доставка невозможна");}
-        //task 4
+        //Простая работа со switch
         int monthNumber = 12;
         switch (monthNumber){
             case 1:System.out.println("принадлежит к сезону зима");

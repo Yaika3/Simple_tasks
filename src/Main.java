@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-//task 1
+// Простая работа через консоль : Вопрос - ответ
     Scanner in = new Scanner(System.in);
     System.out.print("Если вы пользуетесь Android нажмите 1, Если вы пользуетесь OS нажмите 0 ");
     int client = in.nextInt();
@@ -13,7 +13,6 @@ public class Main {
         System.out.println("Установите версию приложения для iOS по ссылке");}
     if (client == 1){
         System.out.println("Установите версию приложения для Android по ссылке");}
-// task 2
         in = new Scanner(System.in);
     System.out.print("Год выпуска ващего телефона? ");
     int Version = in.nextInt();
@@ -24,7 +23,7 @@ public class Main {
 
 
 
-        //task 3 Тут не много не понял с формулой,но с инетом вроде разобрался.
+        //Задачка про високосный год
     int year = 2020;
         if  ( year % 4==0 && year % 100 != 0 || year % 400 == 0 ) {
             System.out.println("год является високосным");}
@@ -32,7 +31,7 @@ public class Main {
         else System.out.println("год не является високосным");
 
 
-        //task 3  не понимаю как решить с прибавлением км и временем суток.
+        //Простая работа указанием дистанции через switch
         int deliveryDistance = 95;
         if (deliveryDistance >=20 && deliveryDistance < 60){
             System.out.println("Доставка займет 2 дня");}
